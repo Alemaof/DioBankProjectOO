@@ -3,7 +3,7 @@ package dio.meubanco;
 import lombok.Data;
 
 @Data
-public class Account implements IAccount {
+public abstract class Account implements IAccount {
 
     private int agency;
     private int number;
